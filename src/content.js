@@ -1,21 +1,24 @@
 import React from 'react'
+import './content.css';
+import jQuery from 'jquery';
+
+
 import { Flex, Grid, GridItem, SimpleGrid, Box } from '@chakra-ui/react'
 
 import Navbar from './components/navbar'
 import Experience from './pages/Experience'
 import About from './pages/About'
 import Projects from './pages/Projects'
-import Footer from './pages/Footer'
+import Footer from './pages/Footer' 
 
-
-export default function content() {
+function content() {
     return (
         <>
             <Grid templateColumns='repeat(6, 1fr)'>
                 <GridItem colSpan='3' alignItems='center'>
                     <Navbar />
                 </GridItem>
-                <GridItem backgroundColor='#113946' colSpan='3' pb='20'>
+                <GridItem backgroundColor='#113946' colSpan='3'>
                     <About />
                     <Experience />
                     <Projects />
@@ -27,3 +30,5 @@ export default function content() {
 
     )
 }
+
+export default content

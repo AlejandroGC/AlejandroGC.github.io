@@ -1,5 +1,8 @@
 import React from 'react'
-import { Flex, Spacer, flexbox, VStack, Text, Spacing, SimpleGrid, GridItem, Card, CardBody, CardFooter, CardHeader, Heading, Badge, Link } from '@chakra-ui/react'
+import './Experience.css'
+import cv from '../assets/CV-AlejandroGonzalez.pdf'
+
+import { Flex, Spacer, flexbox, VStack, Text, Spacing, SimpleGrid, GridItem, Card, CardBody, CardFooter, CardHeader, Heading, Badge, Link, Box } from '@chakra-ui/react'
 import { ArrowForwardIcon } from '@chakra-ui/icons'
 import Navbar from '../components/navbar'
 
@@ -71,9 +74,9 @@ function Experience() {
                     </GridItem>
                 </SimpleGrid>
                 <Flex mt='10'>
-                    <Link>
-                        <Text fontWeight='bold' size='sm'>View Full Resume <ArrowForwardIcon/></Text>
-                    </Link>
+                        <Link target='_blank' href={cv}>
+                            <Text fontWeight='bold' size='sm'>View Full Resume <ArrowForwardIcon/></Text>
+                        </Link>
                 </Flex>
             </Flex>
         </>

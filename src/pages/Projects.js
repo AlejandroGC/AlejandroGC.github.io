@@ -2,6 +2,7 @@ import React from 'react'
 import { Flex, Spacer, flexbox, VStack, Text, Spacing, SimpleGrid, GridItem, Link, Badge, Card, CardBody, CardFooter, CardHeader, Heading, Img } from '@chakra-ui/react'
 
 import logo from '../assets/logo.png'
+import Google from '../assets/Google.png'
 
 function Projects() {
   return (
@@ -13,7 +14,7 @@ function Projects() {
                         <SimpleGrid templateColumns='repeat(9, 1fr)'>
                             <GridItem colSpan='2'>
                                 <CardHeader>
-                                    <Img boxSize='100px' src={logo}></Img>
+                                    <Img boxSize='70px' src={logo}></Img>
                                 </CardHeader> 
                             </GridItem>
                             <GridItem colSpan='7'>
@@ -43,7 +44,7 @@ function Projects() {
                         <SimpleGrid templateColumns='repeat(9, 1fr)'>
                             <GridItem colSpan='2'>
                                 <CardHeader>
-                                    <Text fontSize='12' fontWeight='bold'>Feb - May 2021</Text>
+                                    <Img boxSize='100px' src={Google}></Img>
                                 </CardHeader> 
                             </GridItem>
                             <GridItem colSpan='7'>
