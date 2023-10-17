@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0df465e3.css",
-    "main.js": "/static/js/main.7d555c06.js",
+    "main.css": "/static/css/main.0785adcd.css",
+    "main.js": "/static/js/main.48cfb9ab.js",
+    "static/media/CV-AlejandroGonzalez.pdf": "/static/media/CV-AlejandroGonzalez.9dbfd85fe2d96444f9eb.pdf",
     "static/media/logo.png": "/static/media/logo.b08c88ab20baeb5031e5.png",
+    "static/media/Google.png": "/static/media/Google.960c670a7a8d952eba35.png",
     "index.html": "/index.html",
-    "main.0df465e3.css.map": "/static/css/main.0df465e3.css.map",
-    "main.7d555c06.js.map": "/static/js/main.7d555c06.js.map"
+    "main.0785adcd.css.map": "/static/css/main.0785adcd.css.map",
+    "main.48cfb9ab.js.map": "/static/js/main.48cfb9ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.0df465e3.css",
-    "static/js/main.7d555c06.js"
+    "static/css/main.0785adcd.css",
+    "static/js/main.48cfb9ab.js"
   ]
 }
