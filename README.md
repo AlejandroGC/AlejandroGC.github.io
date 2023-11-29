@@ -17,7 +17,7 @@ This website consists of the following sections:
 
 ## Preview:
 
-[Website](https://www.alexcgzz.github.io)
+[Website](alexcgzz.github.io)
 
 ## How to Contribute:
 
