@@ -1,11 +1,11 @@
-import { Flex, Box, Heading, Spacer, VStack, Link, GridItem, HStack, Icon, Text } from '@chakra-ui/react'
-import React from 'react'
+import { Flex, Box, Heading, Spacer, VStack, Link, GridItem, HStack, Icon, Text, useStatStyles } from '@chakra-ui/react'
+import React, { useEffect, useRef, useState } from 'react'
 
 function navbar() {
   return (
     <Flex direction='column' width='50%' backgroundColor='#113946' height='100vh' position='fixed' overflow='hidden' justifyContent='center' textAlign='center' >
         <Flex direction='column' margin='3rem 8rem' textAlign='left'>
-            <Heading color='#FFF2D8' size='2xl' mb='4'>Alejandro Gonzalez</Heading>
+            <Heading color='#FFF2D8' size='2xl' mb='4'>Alejandro González</Heading>
             <Heading color='#FFF2D8' size='sm' mb='20'>Aspiring Cloud Engineer | Undergraduate Student at Tecnologico de Monterrey</Heading>
             <VStack mb='20' align='left' _hover={{
                 color:'white'

@@ -9,7 +9,7 @@ function Projects() {
     <Flex id='projects' p='4rem 8rem 1rem 0' color='#FFF2D8' direction='column'>
         <SimpleGrid templateColumns='repeat(4, 1fr)' gap='10'>
             <GridItem colSpan='4'>
-                <Link target='_blank' href='https://teknik.mx/' textDecoration='none' _hover={{ textDecoration: 'none'}}>
+                <Link target='_blank' href='https://github.com/Alexcgzz/CemexGO' textDecoration='none' _hover={{ textDecoration: 'none'}}>
                     <Card textAlign='left' backgroundColor='#113946' textColor='#FFF2D8' boxShadow='none' transition='0.5s' _hover={{ transition: '0.5s',  boxShadow: '0 0 15px #176B87', backgroundColor: '#176B87' }}>
                         <SimpleGrid templateColumns='repeat(9, 1fr)'>
                             <GridItem colSpan='2'>
@@ -32,38 +32,6 @@ function Projects() {
                                     <Badge colorScheme='cyan' p='3px 6px' borderRadius='5'>NodeJS</Badge>
                                     <Badge colorScheme='cyan' p='3px 6px' borderRadius='5'>Python</Badge>
                                     <Badge colorScheme='cyan' p='3px 6px' borderRadius='5'>MongoDB</Badge>
-                                </CardFooter>
-                            </GridItem>
-                        </SimpleGrid>
-                    </Card>
-                </Link>
-            </GridItem>
-            <GridItem colSpan='4'>
-                <Link textDecoration='none' _hover={{ textDecoration: 'none'}}>
-                    <Card textAlign='left' backgroundColor='#113946' textColor='#FFF2D8' boxShadow='none' transition='0.5s' _hover={{ transition: '0.5s',  boxShadow: '0 0 15px #176B87', backgroundColor: '#176B87' }}>
-                        <SimpleGrid templateColumns='repeat(9, 1fr)'>
-                            <GridItem colSpan='2'>
-                                <CardHeader>
-                                    <Img boxSize='100px' src={Google}></Img>
-                                </CardHeader> 
-                            </GridItem>
-                            <GridItem colSpan='7'>
-                                <CardHeader>
-                                    <Heading size='sm'>Google Software Product Sprint</Heading>
-                                    <Text>Participant</Text>
-                                </CardHeader>
-                                <CardBody textAlign='justify' mr='10' pt='0'>
-                                    Collaborated with a team to design and implement a web application using Java, JavaScript, HTML and CSS over the
-                                    course of 10 weeks, leveraging various Google Cloud Platform APIs, including App Engine and Datastore.
-                                    Practiced industry best practices such as: contributing to open-source software using Git and GitHub, conducting code
-                                    reviews, participating in distributed development, designing new components and interfaces, and leading them to
-                                    completion.
-                                </CardBody>
-                                <CardFooter gap='3'>
-                                    <Badge colorScheme='cyan' p='3px 6px' borderRadius='5'>HTML</Badge>
-                                    <Badge colorScheme='cyan' p='3px 6px' borderRadius='5'>CSS</Badge>
-                                    <Badge colorScheme='cyan' p='3px 6px' borderRadius='5'>Javascript</Badge>
-                                    <Badge colorScheme='cyan' p='3px 6px' borderRadius='5'>Java</Badge>
                                 </CardFooter>
                             </GridItem>
                         </SimpleGrid>

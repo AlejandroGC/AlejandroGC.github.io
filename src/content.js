@@ -1,6 +1,5 @@
 import React from 'react'
 import './content.css';
-import jQuery from 'jquery';
 
 
 import { Flex, Grid, GridItem, SimpleGrid, Box } from '@chakra-ui/react'

@@ -16,14 +16,8 @@ import { useEffect, useRef } from 'react';
 
 function App() {
 
-  const spotlight = useRef()
-
-  useEffect(() => {
-    console.log(spotlight)
-  },[])
-
   return (
-    <div className="App" id='spotlight' ref={spotlight}>
+    <div className="App" >
       <ChakraProvider>
         <Content />
       </ChakraProvider>

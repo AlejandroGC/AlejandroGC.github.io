@@ -23,7 +23,7 @@ function About() {
                         engaging in online courses through platforms like <Link target='_blank' href='https://ed.team/' fontWeight='bold' color='#CEDBD0' _hover={{ color: 'cyan' }}>EDteam</Link>. These courses have been instrumental in honing my skills 
                         and keeping me up-to-date with the latest developments in the tech industry.
                     </Text>
-                    <Text textAlign='justify'  color='#4F7973'>
+                    <Text textAlign='justify' fontWeight='500' color='#4F7973'>
                         Outside the realm of programming, I find balance in my life by participating in local soccer leagues, enjoying quality 
                         time with my girlfriend, hanging out with friends, and occasionally immersing myself in the world of video games. 
                         These diverse interests not only provide relaxation but also inspire creativity, allowing me to approach my coding 

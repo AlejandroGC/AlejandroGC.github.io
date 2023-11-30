@@ -1,5 +1,4 @@
 import React from 'react'
-import './Experience.css'
 import cv from '../assets/CV-AlejandroGonzalez.pdf'
 
 import { Flex, Spacer, flexbox, VStack, Text, Spacing, SimpleGrid, GridItem, Card, CardBody, CardFooter, CardHeader, Heading, Badge, Link, Box } from '@chakra-ui/react'
@@ -41,7 +40,7 @@ function Experience() {
                         </Link>
                     </GridItem>
                     <GridItem colSpan='4'>
-                        <Link textDecoration='none' _hover={{ textDecoration: 'none'}}>
+                        <Link textDecoration='none' target='_blank' href='https://github.com/Alexcgzz/software-product-sprint' _hover={{ textDecoration: 'none'}}>
                             <Card textAlign='left' backgroundColor='#113946' textColor='#FFF2D8' boxShadow='none' transition='0.5s' _hover={{ transition: '0.5s',  boxShadow: '0 0 15px #176B87', backgroundColor: '#176B87' }}>
                                 <SimpleGrid templateColumns='repeat(9, 1fr)'>
                                     <GridItem colSpan='2'>
